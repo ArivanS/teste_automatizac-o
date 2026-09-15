@@ -1,4 +1,4 @@
-from app.calculadora import somar, subtrair, calcular_desconto
+from app.calculadora import somar, subtrair, multiplicar, calcular_desconto
 
 
 def test_somar():
@@ -11,3 +11,7 @@ def test_subtrair():
 
 def test_calcular_desconto():
     assert calcular_desconto(100, 10) == 90
+
+
+def test_multiplicar():
+    assert multiplicar(4, 5) == 20
