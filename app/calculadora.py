@@ -7,7 +7,7 @@ def subtrair(a, b):
 
 
 def multiplicar(a, b):
-    return a + b
+    return a * b
 
 
 def calcular_desconto(preco, percentual):
